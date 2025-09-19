@@ -1,16 +1,12 @@
 # kothapp
 A simple chat app
 
-## build the code 
-`
-gcc chat.c -o chat -lpthread
-`
 ## Server mode
 `
-./chat server 8080
+python3 main.py server 8080
 `
 ## Cline mode
 
 `
-./chat client YOUR_PUBLIC_IP 8080
+python3 chat.py client 127.0.0.1 8080
 `
